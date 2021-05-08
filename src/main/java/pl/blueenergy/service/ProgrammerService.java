@@ -12,6 +12,8 @@ public class ProgrammerService {
 
 	public void execute(DocumentDao documentDao) {
 		List<Document> allDocumentsInDatabase = documentDao.getAllDocumentsInDatabase();
+
+
 	}
 
 	private List<Questionnaire> getQuestionnaireList(List<Document> list){
